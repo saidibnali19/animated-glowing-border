@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated glowing border</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <button class="button glow-effect">
+      Hi there
+      <svg class="glow-container">
+        <rect pathLength="100" stroke-linecap="round" class="glow-blur"></rect>
+        <rect pathLength="100" stroke-linecap="round" class="glow-line"></rect>
+      </svg>
+    </button>
+
+    <button class="button glow-effect no-animation">
+      Hi there
+      <svg class="glow-container">
+        <rect pathLength="100" stroke-linecap="round" class="glow-blur"></rect>
+        <rect pathLength="100" stroke-linecap="round" class="glow-line"></rect>
+      </svg>
+    </button>
+
+    <button class="button glow-effect offset">
+      Hi there
+      <svg class="glow-container">
+        <rect pathLength="100" stroke-linecap="round" class="glow-blur"></rect>
+        <rect pathLength="100" stroke-linecap="round" class="glow-line"></rect>
+      </svg>
+    </button>
+
+    <button class="button glow-effect no-animation offset">
+      Hi there
+      <svg class="glow-container">
+        <rect pathLength="100" stroke-linecap="round" class="glow-blur"></rect>
+        <rect pathLength="100" stroke-linecap="round" class="glow-line"></rect>
+      </svg>
+    </button>
+  </body>
+</html>
